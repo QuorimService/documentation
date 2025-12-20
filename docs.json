@@ -27,7 +27,8 @@
               "/dashboard/settings",
               "/dashboard/members",
               "/dashboard/members/request",
-              "/dashboard/auditlogs"
+              "/dashboard/auditlogs",
+              "/dashboard/analytics"
             ]
           },
           {

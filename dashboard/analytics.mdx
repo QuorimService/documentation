@@ -1,0 +1,344 @@
+---
+title: "Analytics"
+description: "Deep insights into player activity, performance, combat, vehicles, and server trends in Quorim"
+icon: "chart-line"
+iconType: "duotone"
+---
+The **Analytics** page provides comprehensive real-time and historical insights into your server's performance, player behavior, combat statistics, and overall engagement metrics. All data is server-specific and dynamically updates based on your selected time period.
+
+<Info>
+**New Server?** If you've just created your server, analytics data will be available after **3 hours** of initial processing. Subsequently, analytics refresh every **6 hours** to ensure accuracy and optimal performance.
+</Info>
+
+---
+
+## Overview Metrics
+The top of your Analytics dashboard displays four critical performance indicators that give you an instant snapshot of your server's health and activity.
+
+<Frame>
+  <img src="/images/analytics_1.png" alt="analytics" />
+  </Frame>
+
+<CardGroup cols={2}>
+  <Card title="Active Window" icon="clock" iconType="duotone">
+    Total playtime accumulated during the selected insight period, representing overall server engagement and player dedication.
+  </Card>
+  
+  <Card title="Players Joined" icon="users" iconType="duotone">
+    Number of unique players who joined during the period. Duplicates are automatically filtered to provide accurate player counts.
+  </Card>
+  
+  <Card title="Mod Calls" icon="shield-halved" iconType="duotone">
+    Total moderation calls triggered, including average response time to help optimize your moderation workflow.
+  </Card>
+  
+  <Card title="Peak Activity" icon="chart-simple" iconType="duotone">
+    The most active hour of the day, invaluable for scheduling events or increasing staff coverage during high-traffic periods.
+  </Card>
+</CardGroup>
+
+
+
+---
+## Growth Overview
+Track your server's expansion trajectory with detailed growth metrics that help you understand player retention and acquisition trends.
+
+<Frame>
+  <img src="/images/analytics_2.png" alt="analytics" />
+  </Frame>
+
+
+### Key Metrics
+- **Total Unique Players**: Lifetime count of distinct players who have joined your server
+- **Players Joined Today**: New players acquired in the current 24-hour period
+- **Last 7 Days Activity**: Weekly engagement trends and player retention
+- **Last 30 Days Growth**: Monthly growth patterns and long-term trajectory
+
+<AccordionGroup>
+  <Accordion title="Understanding Growth Patterns" icon="chart-line">
+    Your growth metrics help identify three key server states:
+    
+    - **Growing**: Consistent increase in new players and daily activity
+    - **Stable**: Steady player count with balanced join/leave rates
+    - **Declining**: Decreasing player activity requiring attention
+    
+    Use these insights to adjust your server strategy, marketing, or content updates.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Activity Heatmap
+
+The **Activity Heatmap** provides a visual representation of player engagement intensity across different days and times, making it easy to identify patterns at a glance.
+
+<Frame>
+  <img src="/images/analytics_3.png" alt="analytics" />
+  </Frame>
+
+
+### How to Read the Heatmap
+- **Darker cells:** Higher player activity and engagement
+- **Lighter cells:** Lower activity periods
+- **Pattern recognition:** Spot weekly trends and optimal event timing
+
+<Warning>
+Sudden drops in activity may indicate technical issues, unpopular updates, or external factors. Investigate anomalies promptly to maintain player satisfaction.
+</Warning>
+
+---
+
+## Player Activity Timeline
+This interactive timeline offers a comparative view of player activity, helping you quickly identify trends, spikes, or unusual behavior patterns.
+
+<Frame>
+  <img src="/images/analytics_4.png" alt="analytics" />
+  </Frame>
+
+### Timeline Features
+- **Live Activity**: Real-time player engagement for the current period
+- **Yesterday's Comparison**: Side-by-side comparison with the previous day
+- **Trend Analysis**: Visual identification of growth or decline patterns
+- **Anomaly Detection**: Quickly spot unusual spikes or drops in activity
+
+---
+
+## Vehicle Statistics
+Comprehensive tracking of vehicle usage across your server, providing insights into player preferences and gameplay patterns.
+<Frame>
+  <img src="/images/analytics_5.png" alt="analytics" />
+  </Frame>
+
+### Overview Metrics
+<CardGroup cols={3}>
+  <Card title="Total Spawns" icon="car" iconType="duotone">
+    Cumulative count of all vehicle spawns during the selected period
+  </Card>
+  
+  <Card title="Most Used Vehicle" icon="trophy" iconType="duotone">
+    The most popular vehicle based on spawn frequency and session duration
+  </Card>
+  
+  <Card title="Session Duration" icon="stopwatch" iconType="duotone">
+    Average time players spend in vehicles, indicating engagement with vehicle mechanics
+  </Card>
+</CardGroup>
+
+---
+
+## Combat Statistics
+Track confirmed combat actions and player performance metrics to understand PvP dynamics and player skill distribution.
+<Frame>
+  <img src="/images/analytics_6.png" alt="analytics" />
+  </Frame>
+
+### Combat Overview
+
+<CardGroup cols={3}>
+  <Card title="Total Confirmed Kills" icon="crosshairs" iconType="duotone">
+    Aggregate count of all confirmed eliminations during the selected period
+  </Card>
+  
+  <Card title="Top Killer" icon="crown" iconType="duotone">
+    Player with the highest kill count, showcasing combat dominance
+  </Card>
+  
+  <Card title="K/D Trends" icon="chart-line" iconType="duotone">
+    Kill-to-death ratio trends across your player base
+  </Card>
+</CardGroup>
+
+<Check>
+Combat statistics help identify highly skilled players who might be good candidates for competitive events, tournaments, or community leadership roles.
+</Check>
+
+---
+
+## Command Usage
+Monitor how players interact with your server through command usage statistics, helping you understand which features are most valuable to your community.
+
+### Command Metrics
+
+<CardGroup cols={2}>
+  <Card title="Total Commands Run" icon="terminal" iconType="duotone">
+    Cumulative count of all commands executed during the selected period
+  </Card>
+  
+  <Card title="Most Used Command" icon="star" iconType="duotone">
+    The command with the highest usage frequency, indicating popular features
+  </Card>
+</CardGroup>
+
+<Info>
+If no commands have been used during the selected period, you'll see: *"No command logs found"*
+</Info>
+
+---
+
+## Leaderboard
+
+The comprehensive leaderboard ranks players based on multiple performance metrics, providing a holistic view of player engagement and skill.
+
+### Leaderboard Columns
+| Metric | Description |
+|--------|-------------|
+| **Playtime** | Total time spent on the server during the selected period |
+| **Kills** | Number of confirmed eliminations |
+| **Deaths** | Number of times the player was eliminated |
+| **K/D Ratio** | Kill-to-death ratio, calculated as kills ÷ deaths |
+| **Commands Used** | Total number of commands executed |
+
+
+---
+## Top Performers
+
+The **Top Performers** section uses a sophisticated weighted scoring system that balances combat skill, server dedication, and overall activity to identify your most valuable players.
+
+### Performance Score Formula
+Our scoring system rewards well-rounded players who contribute to server health through multiple dimensions:
+| Metric | Points | Rationale |
+|--------|--------|-----------|
+| **Kills** | **+20 pts** | Rewards combat skill and PvP engagement |
+| **Playtime** (per hour) | **+50 pts** | Values server dedication and consistent activity |
+| **Commands Used** | **+2 pts** | Encourages feature exploration and engagement |
+| **Deaths** | **−5 pts** | Slight penalty to balance pure aggression |
+<Callout icon="trophy" color="#FFC107" iconType="duotone">
+**Top Performers are ranked by overall impact** — not just kills. This holistic approach identifies players who contribute to server health through combat, dedication, and active participation.
+</Callout>
+
+### Understanding the Scoring System
+<AccordionGroup>
+  <Accordion title="Why Playtime is Weighted Heavily" icon="clock">
+    Playtime receives the highest point value (+50 per hour) because:
+    
+    - Consistent players build community and mentor new members
+    - Server dedication indicates long-term investment and loyalty
+    - Active players contribute to a vibrant, populated environment
+    - Playtime correlates with overall server health and retention
+  </Accordion>
+  
+  <Accordion title="Balancing Combat and Activity" icon="scale-balanced">
+    The scoring system intentionally balances combat prowess with overall engagement:
+    
+    - **Pure combat players**: High kills but low playtime may rank lower
+    - **Dedicated players**: Consistent activity with moderate combat ranks highly
+    - **Well-rounded players**: Balanced kills, playtime, and feature usage rank highest
+    
+    This prevents the leaderboard from becoming purely combat-focused and rewards diverse playstyles.
+  </Accordion>
+  
+  <Accordion title="Death Penalty Explained" icon="skull">
+    The -5 point death penalty serves multiple purposes:
+    
+    - **Prevents reckless play**: Discourages mindless aggression without strategy
+    - **Rewards tactical gameplay**: Players who engage smartly rank higher
+    - **Balances K/D ratio**: Works alongside kill rewards for fair assessment
+    - **Minimal impact**: Small enough not to punish normal gameplay
+  </Accordion>
+</AccordionGroup>
+### Top Performers Display
+The Top Performers section showcases:
+- **Rank badges**: Visual indicators for 1st, 2nd, and 3rd place
+- **Player avatars**: Profile pictures for easy recognition
+- **Performance score**: Total calculated points based on the formula
+- **Key stats**: Breakdown of kills, playtime, and other contributing metrics
+<Tip>
+Use Top Performers data to identify community leaders, potential moderators, or players who deserve special recognition through in-game rewards or exclusive roles.
+</Tip>
+---
+## Player Data Comparison
+
+The **Player Data Comparison** tool allows you to perform detailed side-by-side analysis of any two players, helping you understand performance differences and identify coaching opportunities.
+### Comparison Features
+<CardGroup cols={2}>
+  <Card title="Combat Performance" icon="swords" iconType="duotone">
+    Compare kills, deaths, K/D ratio, and combat efficiency between players
+  </Card>
+  
+  <Card title="General Stats" icon="chart-mixed" iconType="duotone">
+    Analyze playtime, hours played, vehicle usage, and command activity
+  </Card>
+</CardGroup>
+
+---
+
+## Troubleshooting
+Common issues and their solutions:
+<AccordionGroup>
+  <Accordion title="No Data Available" icon="circle-exclamation">
+    **Possible Causes:**
+    - Server is less than 3 hours old (initial processing period)
+    - No player activity during the selected time period
+    - Data processing delay (wait for next 6-hour update cycle)
+    
+    **Solutions:**
+    - Wait for the initial 3-hour processing period to complete
+    - Select a different time period with known activity
+    - Check back after the next 6-hour update cycle
+  </Accordion>
+  
+  <Accordion title="Metrics Seem Inaccurate" icon="triangle-exclamation">
+    **Possible Causes:**
+    - Recent data hasn't been processed yet (6-hour update cycle)
+    - Time zone differences affecting period selection
+    - Cached data in your browser
+    
+    **Solutions:**
+    - Wait for the next scheduled update (every 6 hours)
+    - Verify your selected time period matches your expectations
+    - Clear browser cache and reload the page
+    - Check your server's time zone settings
+  </Accordion>
+  
+  <Accordion title="Missing Players in Leaderboard" icon="user-slash">
+    **Possible Causes:**
+    - Players haven't been active during the selected period
+    - Minimum activity threshold not met
+    - Player data still processing
+    
+    **Solutions:**
+    - Expand your selected time period
+    - Verify the player was actually active during this time
+    - Wait for the next data update cycle
+  </Accordion>
+  
+  <Accordion title="Combat Logs Not Showing" icon="swords">
+    **Possible Causes:**
+    - No combat events during the selected period
+    - Combat logging not properly configured
+    - Data processing delay
+    
+    **Solutions:**
+    - Verify combat events occurred during the selected time
+    - Check your server's combat logging configuration
+    - Wait for the next 6-hour update cycle
+  </Accordion>
+</AccordionGroup>
+<Warning>
+If you continue experiencing issues after trying these solutions, please contact Quorim support with your server ID and a description of the problem.
+</Warning>
+
+---
+
+## Need Help?
+<CardGroup cols={2}>
+  <Card title="Documentation" icon="book" iconType="duotone" href="#">
+    Browse our comprehensive documentation for detailed guides and tutorials
+  </Card>
+  
+  <Card title="Support Server" icon="discord" iconType="duotone" href="#">
+    Join our Discord community for real-time support and discussions
+  </Card>
+  
+  <Card title="Submit Feedback" icon="message" iconType="duotone" href="#">
+    Share your ideas and suggestions to help us improve analytics
+  </Card>
+  
+  <Card title="Report Issues" icon="bug" iconType="duotone" href="#">
+    Found a bug? Let us know so we can fix it quickly
+  </Card>
+</CardGroup>
+---
+<Check>
+You're now equipped to leverage Quorim's powerful analytics to understand your server, optimize player experience, and make data-driven decisions that drive growth and engagement!
+</Check>
