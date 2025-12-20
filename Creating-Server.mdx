@@ -41,53 +41,33 @@ Before creating a server, ensure the following:
 
 <Steps>
 
-### Log in to Quorim
+### Navigate to create server
 
-Go to [https://quorim.xyz/login](https://quorim.xyz/login)
-
-Log in using your Discord account.  
-Once logged in, you will be redirected to your dashboard.
+Go to [https://quorim.xyz/dashboard](https://quorim.xyz/dashboard) and click **Create Server**, or visit [https://quorim.xyz/create-server](https://quorim.xyz/create-server) directly.
 
 ---
 
-### Open the Dashboard
+### Enter server name
 
-Visit [/dashboard](https://quorim.xyz/dashboard)
+Enter a **unique server name** for your PRC server. This name identifies your server inside Quorim and can be changed later if needed.
 
-On the dashboard, click the **Create Server** button.  
-You will be redirected to the server creation flow at [/create-server](https://quorim.xyz/create-server)
-
----
-
-### Enter Server Name
-
-Enter a **unique server name** for your PRC server.
-
-This name:
-- Identifies your server inside Quorim
-- Cannot be duplicated
-- Can be changed later if needed
-
-Once entered, click **Next**.
+Click **Next** to continue.
 
 ---
 
-### Link Your Discord Server
+### Link your Discord server
 
-Select the Discord server you want to link.
+Select the Discord server you want to link. You must be the **Owner**, **Administrator**, or have **Manage Server** permission.
 
-Requirements:
-- You must be the **Owner**, **Administrator**, or have **Manage Server** permission
-- The Quorim bot must be invited to the server
+<Info>
+  If you just invited the bot, click **Refresh** to reload available servers.
+</Info>
 
-If you just invited the bot:
-- Click the **Refresh** button to reload available servers
-
-Once the Discord server is linked, click **Next**.
+Click **Next** to continue.
 
 ---
 
-### Enter PRC API Key
+### Enter PRC API key
 
 Paste your **PRC API Key** into the input field.
 
@@ -95,50 +75,17 @@ Paste your **PRC API Key** into the input field.
   Make sure the API Pack is active on your PRC account.
 </Warning>
 
-- If the API key is **valid**, you can proceed to the next step
-- If the API key is **invalid**, you will not be able to continue
+Click **Next** to continue.
 
 ---
 
-### Select Timezone
+### Confirm and create
 
-Your timezone is automatically selected based on your **IP address**.
-
-<Info>
-  Quorim uses your IP only for timezone detection. Learn more in our [privacy policy](https://quorim.xyz/privacy).
-</Info>
-
-You can manually change the timezone if needed.
-
-Once selected, click **Next**.
-
----
-
-### Confirm Server Details
-
-You will see a confirmation summary containing:
-- Server name
-- Linked Discord server
-- Selected timezone
-- First 4 characters of your PRC API key
-
-Review the details carefully.
-
-To continue:
-- Agree to the **Terms of Service**
-- The **Continue** button will appear once accepted
-
-Click **Continue** to finalize setup.
-
----
-
-### Server Created
+Review your server details and agree to the **Terms of Service**. Click **Continue** to create your server.
 
 <Check>
   Your server will now be created and added to your dashboard.
 </Check>
-
-You can manage analytics, players, and settings directly from the dashboard.
 
 </Steps>
 
@@ -153,24 +100,22 @@ Once your server is created:
 
 ---
 
-## Invite Your Team
-
-<Card
-  title="Invite team members"
-  icon="user-plus"
-  href="/inviting-users"
->
-  Add staff and team members to help manage your PRC server.
-</Card>
-
----
-
 ## What's Next?
 
-<Card
-  title="Explore analytics"
-  icon="chart-line"
-  href="/analytics/introduction"
->
-  Learn how Quorim collects and displays PRC analytics.
-</Card>
+<CardGroup cols={2}>
+  <Card
+    title="Invite team members"
+    icon="user-plus"
+    href="/inviting-users"
+  >
+    Add staff and team members to help manage your PRC server.
+  </Card>
+  
+  <Card
+    title="Explore analytics"
+    icon="chart-line"
+    href="/analytics/introduction"
+  >
+    Learn how Quorim collects and displays PRC analytics.
+  </Card>
+</CardGroup>
