@@ -21,6 +21,13 @@
             ]
           },
           {
+            "group": "Dashboard",
+            "pages": [
+              "/dashboard/overview",
+              "/dashboard/settings"
+            ]
+          },
+          {
             "group": "Miscellaneous",
             "pages": [
               "/miscellaneous/flags",

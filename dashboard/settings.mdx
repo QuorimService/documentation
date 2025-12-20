@@ -1,0 +1,143 @@
+---
+title: "Settings"
+description: "Manage your server configuration, access, and ownership in Quorim"
+icon: "gear"
+iconType: "duotone"
+---
+
+The **Server Settings** page allows server owners and authorized administrators to manage configuration, access, and sensitive server actions.
+
+This page is server-specific. Any changes made here apply **only to the currently selected server**.
+
+---
+
+## Server Information
+
+The **Server Information** section displays core details about your server:
+
+- **Server Name**
+- **Server Owner**
+- **Server ID**
+- **Linked Discord Server**
+
+These values are informational and help identify your server when contacting support or managing integrations.
+<Frame>
+  <img src="/images/dashboard_settings.png" alt="dashboard" />
+  </Frame>
+
+<Info>
+The Server ID is required when contacting Quorim Support for verification or troubleshooting.
+</Info>
+
+---
+
+## Configuration
+
+The **Configuration** section contains sensitive credentials required for analytics and integrations.
+
+### API Key
+Used internally by Quorim to authenticate server requests.
+
+### PRC API Key
+Your **ER:LC PRC API key**, used to collect analytics data from your PRC server.
+
+- Keys are masked by default
+- Use the visibility toggle to reveal them
+- Never share your API keys publicly
+<Frame>
+  <img src="/images/dashboard_settings_configuration.png" alt="dashboard" />
+  </Frame>
+
+
+<Warning>
+Exposing your API keys may compromise your server’s data and access.
+</Warning>
+
+---
+
+## Join Code
+
+The **Join Code** allows other users to join your server inside Quorim.
+
+- Share this code with your team members
+- Access level default set as Member
+<Frame>
+  <img src="/images/dashboard_settings_joincode.png" alt="dashboard" />
+  </Frame>
+
+---
+
+## Verification Codes
+
+Verification codes are used to **prove ownership** when interacting with the Quorim Support Team.
+
+These codes may be requested for:
+- Ownership verification
+- Account recovery
+- Security investigations
+<Frame>
+  <img src="/images/dashboard_settings_verificationCode.png" alt="dashboard" />
+  </Frame>
+
+<Danger>Do not share verification codes with anyone except official Quorim staff.</Danger>
+
+---
+
+## Danger Zone
+
+The **Danger Zone** contains irreversible or high-risk actions.  
+Only users with sufficient permissions can access these options.
+
+### Transfer Ownership
+Transfer server ownership to another member.
+
+- The new owner gains full control
+- This action cannot be undone without support intervention
+
+### Delete Server
+Permanently delete the server and all associated data.
+
+<Danger>
+Deleting a server is irreversible. All analytics, logs, and settings will be permanently removed.
+</Danger>
+
+### Leave Server
+Leave the server without affecting other members.
+
+- Available only if you are not the owner
+- Ownership must be transferred before leaving
+
+### Contact Support
+Reach out to Quorim Support for help with:
+- Ownership disputes
+- Verification issues
+- Security concerns
+<Frame>
+  <img src="/images/dashboard_settings_dangerZone.png" alt="dashboard" />
+  </Frame>
+
+---
+
+## What’s Next?
+
+<Columns cols={2}>
+<Card
+  title="Members"
+  icon="users"
+  iconType="duotone"
+  href="/dashboard/members"
+  horizontal
+>
+  Manage who has access to your server and their roles.
+</Card>
+
+<Card
+  title="Audit Logs"
+  icon="clipboard-list"
+  iconType="duotone"
+  href="/dashboard/auditlogs"
+  horizontal
+>
+  Track changes and actions taken within your server.
+</Card>
+</Columns>
