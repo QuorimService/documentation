@@ -24,7 +24,10 @@
             "group": "Dashboard",
             "pages": [
               "/dashboard/overview",
-              "/dashboard/settings"
+              "/dashboard/settings",
+              "/dashboard/members",
+              "/dashboard/members/request",
+              "/dashboard/auditlogs"
             ]
           },
           {

@@ -1,0 +1,89 @@
+---
+title: "Members"
+description: "View and manage members in your Quorim server"
+icon: "users"
+iconType: "duotone"
+---
+
+
+The **Members** page shows all users who currently have access to the selected server.
+
+Only server owners and authorized administrators can manage members and roles.
+
+---
+
+## Members List
+
+This page displays every user who is part of the server.
+
+For each member, you can see:
+- **Username**
+- **Assigned role**
+- **Join date**
+
+<Frame>
+  <img src="/images/dashboard_members.png" alt="Members list" />
+</Frame>
+
+---
+
+## Roles & Access Levels
+
+Each member has a role that defines their permissions.
+
+| Role | Description |
+|-----|------------|
+| **Owner** | Full access to all server features and settings |
+| **Admin** | Manage members and access analytics |
+| **Member** | View analytics and server data (Default Role) |
+
+Only the **Owner** and authorized **Admins** can modify roles.
+
+---
+
+## Managing Roles
+
+Next to each member, role controls allow you to:
+- View the current role
+- Promote or demote members (if permitted)
+
+<Info>
+The server owner cannot be removed or demoted.
+</Info>
+
+
+---
+
+## Permissions
+
+| Role | Access |
+|----|------|
+| **Owner** | Full access |
+| **Admin** | Manage members |
+| **Member** | View-only |
+
+---
+
+## What’s Next?
+
+<Columns cols={2}>
+  <Card
+    title="Join Requests"
+    icon="user-plus"
+    iconType="duotone"
+    href="/dashboard/members/requests"
+    horizontal
+  >
+    Review and manage pending join requests.
+  </Card>
+
+  <Card
+    title="Server Settings"
+    icon="gear"
+    iconType="duotone"
+    href="/dashboard/settings"
+    horizontal
+  >
+    Manage server configuration and ownership.
+  </Card>
+</Columns>

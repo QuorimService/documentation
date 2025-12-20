@@ -1,0 +1,70 @@
+---
+title: "Join Requests"
+description: "Review and manage pending server join requests"
+icon: "user-plus"
+iconType: "duotone"
+---
+
+The **Join Requests** page allows server owners and administrators to review users requesting access to the server.
+
+Requests are created when users join using a **server join code**.
+
+---
+
+## Pending Requests
+
+This page lists all users who are waiting for approval.
+
+<Frame>
+  <img src="/images/dashboard_members_request.png" alt="Join requests list" />
+</Frame>
+
+---
+
+## Managing Requests
+
+For each request, you can:
+- **Accept** the request
+- **Deny** the request
+
+You can also use bulk actions:
+- **Accept All**
+- **Deny All**
+
+Once accepted, users are added to the server with the **Member** role by default.
+
+---
+
+## Who Can Manage Requests?
+
+| Role | Access |
+|----|------|
+| **Owner** | Full access |
+| **Admin** | Approve / deny requests |
+| **Member** | No access |
+
+---
+
+## What’s Next?
+
+<Columns cols={2}>
+  <Card
+    title="Members"
+    icon="users"
+    iconType="duotone"
+    href="/dashboard/members"
+    horizontal
+  >
+    View and manage current server members.
+  </Card>
+
+  <Card
+    title="Audit Logs"
+    icon="clipboard-list"
+    iconType="duotone"
+    href="/dashboard/auditlogs"
+    horizontal
+  >
+    Track approvals, removals, and role changes.
+  </Card>
+</Columns>

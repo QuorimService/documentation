@@ -1,0 +1,104 @@
+---
+title: "Audit Logs"
+description: "Track important actions and changes made within your server"
+icon: "clipboard-list"
+iconType: "duotone"
+---
+
+
+The **Audit Logs** page provides a detailed, real-time history of important actions performed within your server.
+
+Audit logs help server owners and administrators maintain **transparency**, **accountability**, and **security**.
+
+All logs shown here apply **only to the currently selected server**.
+
+---
+
+## What Are Audit Logs?
+
+Audit logs record key actions related to server access and ownership.
+
+Each log entry includes:
+- **The user who performed the action**
+- **The action type**
+- **The affected user or server**
+- **Timestamp** of when the action occurred
+
+<Frame>
+  <img src="/images/dashboard_auditlogs.png" alt="Audit Logs" />
+</Frame>
+
+---
+
+## Logged Actions
+
+Quorim currently records the following actions:
+
+| Action | Description |
+|------|------------|
+| **User Accepted** | A join request was approved and the user was added to the server |
+| **User Left** | A user voluntarily left the server |
+| **Join Code Regenerated** | The server join code was regenerated |
+| **Ownership Transferred** | Server ownership was transferred to another member |
+| **Server Name Edited** | The server name was updated |
+
+Only these actions are logged at this time. More events may be added in the future.
+
+---
+
+## Filtering Logs
+
+To help locate specific events, you can filter logs using:
+
+- **Member filter** – view actions performed by a specific user
+- **Action filter** – view specific action types
+- **Search** – search logs by username or action
+
+These tools are useful when reviewing past changes or investigating issues.
+
+---
+
+## Who Can View Audit Logs?
+
+Access to audit logs depends on your role:
+
+| Role | Access |
+|----|------|
+| **Owner** | Full access |
+| **Admin** | Full access |
+| **Member** | No access |
+| **Viewer** | No access |
+
+---
+
+<Info>
+Audit logs are read-only and cannot be edited or deleted.
+</Info>
+
+<Warning>
+Audit logs should not be used as the sole source of truth for moderation decisions.
+</Warning>
+
+## What’s Next?
+
+<Columns cols={2}>
+  <Card
+    title="Members"
+    icon="users"
+    iconType="duotone"
+    href="/dashboard/members"
+    horizontal
+  >
+    Manage server members and roles.
+  </Card>
+
+  <Card
+    title="Server Settings"
+    icon="gear"
+    iconType="duotone"
+    href="/dashboard/settings"
+    horizontal
+  >
+    View or update server configuration and ownership.
+  </Card>
+</Columns>
