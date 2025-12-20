@@ -19,6 +19,14 @@
               "overview",
               "create-server"
             ]
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "/miscellaneous/flags",
+              "/miscellaneous/badges",
+              "/miscellaneous/enforcement-appeal"
+            ]
           }
         ]
       }
@@ -26,9 +34,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "href": "https://quorim.xyz",
+          "icon": "globe"
         },
         {
           "anchor": "Blog",
@@ -36,19 +44,14 @@
           "icon": "newspaper"
         },
         {
-          "anchor": "X",
-          "href": "https://x.com/usequorim",
-          "icon": "x-twitter"
-        },
-        {
-          "anchor": "Website",
-          "href": "https://quorim.xyz",
-          "icon": "globe"
-        },
-        {
           "anchor": "Discord",
           "href": "https://quorim.xyz/discord",
           "icon": "discord"
+        },
+        {
+          "anchor": "X (Twitter)",
+          "href": "https://x.com/usequorim",
+          "icon": "x-twitter"
         }
       ]
     }
