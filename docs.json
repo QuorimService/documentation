@@ -16,8 +16,8 @@
           {
             "group": "Getting started",
             "pages": [
-              "Introduction",
-              "Creating-Server"
+              "overview",
+              "create-server"
             ]
           }
         ]
