@@ -8,6 +8,13 @@
     "dark": "#009E7D"
   },
   "favicon": "/favicon.svg",
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Nothing to see here",
+      "description": "This page doesn’t exist. Try checking the URL or heading back."
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -17,6 +24,7 @@
             "group": "Getting started",
             "pages": [
               "introduction",
+              "quickstart",
               "create-server"
             ]
           },
